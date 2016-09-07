@@ -1,0 +1,55 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  border: 10px solid red;
+  border-radius: 5px;
+  color: orange;
+  font-size: 48px;
+}
+
+h1::first-letter {
+  color: blue;
+}
+
+.animal {
+  background-color: lemonchiffon;
+  margin: 20px;
+}
+.mammal {
+  background-color: yellow;
+  padding: 30px 5px;
+}
+.fish {
+  background-color: orangered;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.bird {
+  background-color: lightblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#best-animal {
+   background-color: springgreen;
+}
+
+ul {
+  background-color: blue;
+  z-index: 100;
+}
+
+.button {
+  background-color: whitesmoke;
+  width: 50%;
+  text-shadow: 2px 2px red;
+  border: 10px solid black;
+  border-radius: 10px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
