@@ -4,6 +4,10 @@ body {
 
 .flex-container {
   border: 3px solid springgreen;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-item {
