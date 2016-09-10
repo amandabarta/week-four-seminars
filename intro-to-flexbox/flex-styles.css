@@ -4,13 +4,24 @@ body {
 
 .flex-container {
   border: 3px solid springgreen;
+  padding: 10px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: space-between;;
   align-items: center;
 }
 
 .flex-item {
-  border: 3px solid lightblue;
+  border: 3px solid coral;
   padding: 20px;
+}
+
+.container.example {
+  border: 3px solid springgreen;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.child.example {
+  border: 3px solid coral;
+  padding:20px;
 }
