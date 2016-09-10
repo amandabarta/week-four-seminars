@@ -1,0 +1,12 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.flex-container {
+  border: 3px solid springgreen;
+}
+
+.flex-item {
+  border: 3px solid lightblue;
+  padding: 20px;
+}
